@@ -3,7 +3,7 @@
 RGGTRN {
 
 	classvar <version;
-	classvar <s; classvar <csf; classvar <dembow; classvar <romantic; classvar <rggtrn2; classvar <digital; classvar <sonidero; classvar <internacional; classvar <rggtrn; classvar <si; classvar <bombo; classvar <bajo; classvar <timbal; classvar <tom1; classvar <principio; classvar <bote; classvar <sabro; classvar <fuerte; classvar <intro; classvar < busArray; classvar < congaS; classvar < congaC; classvar < bongoP; classvar < bongoC; classvar < perron2020; classvar < evolucion2020; classvar < guau2020; classvar < principio2020; classvar < encanta2020;
+	classvar <s; classvar <csf; classvar <dembow; classvar <romantic; classvar <rggtrn2; classvar <digital; classvar <sonidero; classvar <internacional; classvar <rggtrn; classvar <si; classvar <bombo; classvar <bajo; classvar <timbal; classvar <tom1; classvar <principio; classvar <bote; classvar <sabro; classvar <fuerte; classvar <intro; classvar < busArray; classvar < congaS; classvar < congaC; classvar < bongoP; classvar < bongoC; classvar < perron2020; classvar < evolucion2020; classvar < guau2020; classvar < principio2020; classvar < encanta2020; classvar < encanta20; classvar < grupodebinis; classvar < kiwilimon; classvar < presentacion; classvar < presentacion2; classvar < presentacion3; classvar < principio;
 
 	*turboCargar {
 		super.initClass;
@@ -53,6 +53,12 @@ RGGTRN {
         evolucion2020=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/evolucion2020.wav".standardizePath);
 		guau2020=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/ladrido2020.wav".standardizePath);
 		perron2020=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/perron2020.wav".standardizePath);
+		grupodebinis=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/grupodebinis.wav".standardizePath);
+		kiwilimon=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/kiwilimon.wav".standardizePath);
+		presentacion=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/presentacion.wav".standardizePath);
+		presentacion2=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/presentacion2.wav".standardizePath);
+        presentacion3=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/presentacion3.wav".standardizePath);
+		principio=Buffer.read(s, ".local/share/SuperCollider/Extensions/RGGTRNero/samples/principio.wav".standardizePath);
 		busArray = [0,4];
 
 		// rggtrn oficial masterización
